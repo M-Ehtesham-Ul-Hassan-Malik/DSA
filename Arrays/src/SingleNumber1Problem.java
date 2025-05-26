@@ -1,4 +1,4 @@
-public class findNumberThatAppearsOnceOthersTwice {
+public class SingleNumber1Problem {
 
     public int solution(int arr[]) {
         int n = arr.length;
@@ -19,7 +19,7 @@ public class findNumberThatAppearsOnceOthersTwice {
     }
 
     public static void main(String[] args) {
-        findNumberThatAppearsOnceOthersTwice obj = new findNumberThatAppearsOnceOthersTwice();
+        SingleNumber1Problem obj = new SingleNumber1Problem();
         int arr[] = {2,2,3,3,8,4,4,5,5}; //3
         int result = obj.solution(arr);
         System.out.println(result+" ");
