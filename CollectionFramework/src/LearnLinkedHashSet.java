@@ -6,6 +6,16 @@ public class LearnLinkedHashSet {
     public static void main(String[] args) {
 
         // Hashset follows set properties, but it maintains the insertion order.
+/*
+LinkedHashSet Time Complexity w.r.t its operations:
+
+- add(): O(1) (average case), O(n) (worst case)
+- remove(): O(1) (average case), O(n) (worst case)
+- contains(): O(1) (average case), O(n) (worst case)
+- isEmpty(): O(1)
+- clear(): O(n)
+
+ */
         Set<Integer> set = new LinkedHashSet<>();
 
         // add() function adds the values in the set

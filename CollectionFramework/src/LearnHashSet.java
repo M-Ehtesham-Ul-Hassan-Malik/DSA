@@ -5,6 +5,17 @@ public class LearnHashSet {
     public static void main(String[] args) {
 
         // Hashset follows set properties but it does not follow order
+/*
+HashSet Time Complexities w.r.t its operations:
+
+- add(): O(1) (average case), O(n) (worst case)
+- remove(): O(1) (average case), O(n) (worst case)
+- contains(): O(1) (average case), O(n) (worst case)
+- isEmpty(): O(1)
+- clear(): O(n)
+
+ */
+
         Set<Integer> set = new HashSet<>();
 
         // add() function adds the values in the set
