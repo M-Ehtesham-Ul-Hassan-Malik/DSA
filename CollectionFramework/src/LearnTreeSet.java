@@ -3,7 +3,7 @@ import java.util.Set;
 import java.util.TreeSet;
 
 public class LearnTreeSet {
-    public static void main(String[] args)
+    public static void main(String[] args){
     // TreeSet follows set properties, but it maintains the elements in sorted order.
 
 /*

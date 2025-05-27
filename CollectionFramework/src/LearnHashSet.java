@@ -4,7 +4,7 @@ import java.util.Set;
 public class LearnHashSet {
     public static void main(String[] args) {
 
-        // Hashset follows set properties but it does not follow order
+        // Hashset follows set properties, but it does not follow order
 /*
 HashSet Time Complexities w.r.t its operations:
 
