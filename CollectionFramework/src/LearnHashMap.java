@@ -38,10 +38,10 @@ public class LearnHashMap {
         System.out.println(hm.get("22K-2024")); //null
 
 //        //iteration of value in the map
-//        for(Map.Entry<String, String> e: Map.entrySet()){
-//            System.out.println(e.getKey());
-//            System.out.println(e.getValue());
-//        }
+        for(Map.Entry<String, String> e: hm.entrySet()){
+            System.out.println(e.getKey());
+            System.out.println(e.getValue());
+        }
 
         //removing value from the map
         System.out.println(hm);// {22K-4824=M Ehtesham Ul Hassan Malik, 22k-5179=Huzaifa Faran, 22K-4809=Munawar Khan}
